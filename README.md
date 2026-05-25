@@ -1,9 +1,10 @@
-### 技术栈：
-- Java（JDK 21）
-- MySQL 8.0
-- tomcat-11.0.22
-前端：HTML5 + CSS3 + JS + JSP
-后端Java + Servlet + JavaBean + JDBC 
+### 技术栈
+
+- **Java**：JDK 21  
+- **数据库**：MySQL 8.0  
+- **服务器**：Tomcat 11.0.22  
+- **前端**：HTML5 + CSS3 + JavaScript (JS) + JSP  
+- **后端**：Java + Servlet + JavaBean + JDBC  
 ---
 ### 浏览器打开：
 | 页面       | 地址                                     |
