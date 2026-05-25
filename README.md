@@ -12,14 +12,14 @@ Logistics-Management-System/
 ├── database/schema.sql # 数据库脚本（含示例数据）  
 ├── pom.xml # Maven 依赖  
 ├── src/main/   
-│  ├── java/com/logistics/  
-│  │  ├── bean/ # JavaBean 实体  
-│  │  ├── dao/ # JDBC 数据访问层  
-│  │  ├── servlet/ # Servlet 控制器  
-│  │  ├── filter/ # 编码/权限过滤器  
-│  │  └── util/ # 工具类  
-│  ├── resources/db.properties # 数据库配置  
-│  └── webapp/ # JSP 页面 + 静态资源  
+│&emsp;├── java/com/logistics/  
+│&emsp;│&emsp;├── bean/ # JavaBean 实体  
+│&emsp;│&emsp;├── dao/ # JDBC 数据访问层  
+│&emsp;│&emsp;├── servlet/ # Servlet 控制器  
+│&emsp;│&emsp;├── filter/ # 编码/权限过滤器  
+│&emsp;│&emsp;└── util/ # 工具类  
+│&emsp;├── resources/db.properties # 数据库配置  
+│&emsp;└── webapp/ # JSP 页面 + 静态资源  
 
 ---
 
