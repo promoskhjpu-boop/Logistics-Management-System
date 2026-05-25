@@ -8,22 +8,20 @@
 ---
 
 # 项目结构
-Logistics-Management-System/
-├── database/schema.sql # 数据库脚本（含示例数据）
-├── pom.xml # Maven 依赖
-├── src/main/
-│ ├── java/com/logistics/
-│ │ ├── bean/ # JavaBean 实体
-│ │ ├── dao/ # JDBC 数据访问层
-│ │ ├── servlet/ # Servlet 控制器
-│ │ ├── filter/ # 编码/权限过滤器
-│ │ └── util/ # 工具类
-│ ├── resources/db.properties # 数据库配置
-│ └── webapp/ # JSP 页面 + 静态资源
+Logistics-Management-System/  
+├── database/schema.sql # 数据库脚本（含示例数据）  
+├── pom.xml # Maven 依赖  
+├── src/main/   
+│  ├── java/com/logistics/  
+│  │  ├── bean/ # JavaBean 实体  
+│  │  ├── dao/ # JDBC 数据访问层  
+│  │  ├── servlet/ # Servlet 控制器  
+│  │  ├── filter/ # 编码/权限过滤器  
+│  │  └── util/ # 工具类  
+│  ├── resources/db.properties # 数据库配置  
+│  └── webapp/ # JSP 页面 + 静态资源  
 
 ---
-
-# 已实现功能
 
 ## 前台用户端
 
@@ -62,26 +60,6 @@ Logistics-Management-System/
 
 ---
 
-# 部署步骤
-
-1. 初始化数据库：
-    - 导入 `database/schema.sql` 脚本，创建相应表结构并填充示例数据。
-2. 配置数据库连接：
-    - 修改 `src/main/resources/db.properties` 文件中的数据库连接信息。
-3. 打包部署：
-    - 使用 Maven 打包项目为 `.war` 文件，并部署到 Tomcat 服务器（推荐使用 Tomcat 11.0.22）。
-4. 启动服务：
-    - 启动 Tomcat 服务器后访问项目主页，根据具体配置访问地址（例如：`http://localhost:8080/Logistics-Management-System/`）。
-5. 登录测试：
-    - 使用初始化的管理账号或注册用户信息进行功能测试。
-
----
-
-# 备注
-
-- 确保 Java JDK 版本为 21。
-- 数据库版本应为 MySQL 8.0 及以上。
-- 管理员的默认账号/密码需要在 `schema.sql` 文件中查看或初始化后修改。
 ### 浏览器打开：
 | 页面       | 地址                                     |
 |------------|------------------------------------------|
